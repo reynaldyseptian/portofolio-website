@@ -2,6 +2,45 @@ import { Experience } from '../models/experiences.model';
 
 export const EXPERIENCE: Experience[] = [
   {
+  id: '3',
+  company: 'PT Madeindonesia',
+  companyLogo: 'assets/images/logo/madeindonesia.png',
+  experienceImages: [
+    'assets/images/work-experience/properly/properly-1.png',
+    'assets/images/work-experience/properly/properly-2.png',
+    'assets/images/work-experience/properly/properly-3.png'
+  ],
+  summary:
+    'Frontend Developer responsible for developing responsive and interactive web interfaces, integrating front-end with back-end systems, and building scalable web applications using modern technologies such as React and WordPress.',
+  location: 'Yogyakarta',
+  position: 'Frontend Developer',
+  startDate: 'February 2024',
+  endDate: 'Present',
+  responsibilities: [
+    'Develop and implement dynamic, responsive, and interactive user interfaces using JavaScript, HTML/CSS, and CSS preprocessors such as SASS.',
+    'Collaborate closely with designers and back-end developers to ensure seamless integration of front-end and back-end functionalities.',
+    'Leverage modern technologies such as React, Gulp, PHP, and WordPress to build, optimize, and maintain scalable web applications.',
+    'Participate actively in agile development processes including daily stand-ups, sprint planning, and retrospectives.',
+    'Stay current with the latest front-end development trends, techniques, and tools to continuously improve development practices.',
+    'Perform HTML-to-WordPress templating and create custom WordPress themes and plugins.',
+    'Develop custom plugins and reusable components using jQuery, JavaScript, and CSS.',
+    'Conduct comprehensive testing to ensure quality assurance, cross-browser compatibility, and responsive design across devices.',
+    'Utilize Git and GitHub for version control, code reviews, and team collaboration.',
+    'Contribute insights and feedback on UI/UX design improvements to enhance usability, accessibility, and user satisfaction.',
+  ],
+  technologies: [
+    { name: 'SASS', icon: 'assets/images/logo/sass.png' },
+    { name: 'React', icon: 'assets/images/logo/react-js-480.png' },
+    { name: 'WordPress', icon: 'assets/images/logo/wordpress.png' },
+    { name: 'PHP', icon: 'assets/images/logo/php.png' },
+  ],
+  achievements: [
+    'Developed and maintained scalable web applications using modern frontend technologies.',
+    'Successfully implemented HTML-to-WordPress templating and custom WordPress themes.',
+    'Improved UI/UX usability and responsiveness across multiple devices and browsers.',
+  ],
+},
+  {
     id: '1',
     company: 'Zettabyte',
     companyLogo: 'assets/images/logo/zetta.webp',
