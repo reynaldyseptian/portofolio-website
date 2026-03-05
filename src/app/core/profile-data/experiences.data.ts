@@ -14,7 +14,7 @@ export const EXPERIENCE: Experience[] = [
     'Frontend Developer responsible for developing responsive and interactive web interfaces, integrating front-end with back-end systems, and building scalable web applications using modern technologies such as React and WordPress.',
   location: 'Yogyakarta',
   position: 'Frontend Developer',
-  startDate: 'February 2024',
+  startDate: 'February 2026',
   endDate: 'Present',
   responsibilities: [
     'Develop and implement dynamic, responsive, and interactive user interfaces using JavaScript, HTML/CSS, and CSS preprocessors such as SASS.',
